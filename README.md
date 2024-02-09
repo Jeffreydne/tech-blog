@@ -79,7 +79,7 @@ This website is designed as
 ---
 ## Credits
 
- This site was built from scratch. However, I did use normalize.css v8.0.1, an open source css styling file. I also used the boilerplate config/connection.js, and server.js files directly from activities provided by the excellent staff at UC Berkeley Extension Full Stack Bootcamp. I also borrowed heavily from various other  activities from units 13 & 14. Some boilerplate files were used in their nearly complete form, others were used with significant modification. Finally, I copied open source badges from Vedant Chainani at the website https://dev.to/envoy_/150-badges-for-github-pnk#contents 
+ This site was built from scratch. However, I did use normalize.css v8.0.1, an open source css styling file, as well as additional styling in a file called jazz.css, provided by UC Berkeley, for basic styling of the page. I also used the boilerplate config/connection.js, and server.js files directly from activities provided by the excellent staff at UC Berkeley Extension Full Stack Bootcamp. I also borrowed heavily from various other  activities from units 13 & 14. Some boilerplate files were used in their nearly complete form, others were used with significant modification. Finally, I copied open source badges from Vedant Chainani at the website https://dev.to/envoy_/150-badges-for-github-pnk#contents 
  
 ---
 
