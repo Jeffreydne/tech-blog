@@ -4,7 +4,7 @@ const path = require('path');
 
 // Sets up the Express App
 const app = express();
-const PORT = process.env.PORT || 3001;
+const PORT = process.env.PORT || 3011;
 
 app.use(express.static(path.join(__dirname, 'public')));
 // Sets up the routes
