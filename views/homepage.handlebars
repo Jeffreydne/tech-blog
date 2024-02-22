@@ -1,0 +1,14 @@
+<!-- Each blog is rendered -->
+{{#each blogs as |blog|}}
+    <div class="m-0 p-5 ">
+        <div class="blog-post m-5">
+            <header class="w-100 pb-0 pt-2 px-5 blog-header">
+                <p class="in-line">{{blog.title}}</p>
+                <p class="in-line">Posted by {{blog.postedBy}} on {{blog.datePosted}} </p>      
+            </header>
+            <section class="m-0 p-3">
+                <p>{{blog.post}}</p>
+            </section>
+        </div>
+    </div>
+{{/each}}
