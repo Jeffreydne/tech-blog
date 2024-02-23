@@ -27,23 +27,7 @@ router.get('/', async (req, res) => {
 router.get('/login', async (req, res) => {
 
    // Here, login.handlebars is rendered- as the layout template is not needed
-  //  document.location.replace('../views/index.html');
   res.sendFile(path.join(__dirname, '../views/index.html'));
-  // try {
-  //   const blogData = await Blog.findAll();
-
-  // const blogs = blogData.map((blog) =>
-  //   blog.get({ plain: true })
-  // );
-
-  // res.render('homepage', {
-  //   blogs,
-  // });
-  // } catch (err) {
-  //   console.log('This is the error: ' + err);
-  //   res.status(500).json(err);
-  // }
-  
 });
 
 module.exports = router;
