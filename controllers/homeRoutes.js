@@ -27,7 +27,7 @@ router.get('/', async (req, res) => {
 router.get('/login', async (req, res) => {
 
    // Here, login.handlebars is rendered- as the layout template is not needed
-  res.sendFile(path.join(__dirname, '../views/login.html'));
+  res.render('login');
 });
 
 module.exports = router;

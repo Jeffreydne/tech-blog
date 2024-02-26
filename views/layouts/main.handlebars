@@ -13,7 +13,8 @@
             <a href="/" class="px-3" >Home</a>
             <a href="/dashboard" class="px-3">Dashboard</a>
             {{#if loggedIn}}
-            <button id="logout" class="btn-no-style">Logout</button>
+            <a href="#" class="px-3">Logout</a>
+            {{!-- <button id="logout" class="btn-no-style">Logout</button> --}}
             {{else}}
             <a href="/login" class="px-3" >Login</a>
             {{/if}}
