@@ -12,9 +12,9 @@ router.get('/', async (req, res) => {
   const blogs = blogData.map((blog) =>
     blog.get({ plain: true })
   );
-
+    const loggedIn = req.session.loggedIn;
   res.render('homepage', {
-    blogs,
+    blogs, loggedIn,
   });
   } catch (err) {
     console.log('This is the error: ' + err);

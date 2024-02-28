@@ -12,7 +12,7 @@ const loginHandler = async (event) => {
       });
   
       if (response.ok) {
-        document.location.replace('/');
+        document.location.replace('/api/blog');
       } else {
         alert('Failed to log in.');
       }
@@ -34,7 +34,7 @@ const loginHandler = async (event) => {
       });
   
       if (response.ok) {
-        document.location.replace('/');
+        document.location.replace('/api/blog');
       } else {
         alert('Failed to sign up.');
       }

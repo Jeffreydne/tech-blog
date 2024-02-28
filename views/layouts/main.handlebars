@@ -11,7 +11,7 @@
     <header class="p-5">
         <nav class ="mx-2">
             <a href="/" class="px-3" >Home</a>
-            <a href="/dashboard" class="px-3">Dashboard</a>
+            <a href="/api/blog" class="px-3">Dashboard</a>
             {{#if loggedIn}}
             <a href="#" class="px-3">Logout</a>
             {{!-- <button id="logout" class="btn-no-style">Logout</button> --}}
@@ -28,7 +28,7 @@
     {{#if loggedIn}}
       <script src="/js/logout.js"></script>
     {{else}}
-    <script src="/js/login.js"></script>
+    {{!-- <script src="/js/login.js"></script> --}}
     {{/if}}
 </body>
 </html>
