@@ -10,5 +10,13 @@
                 <p>{{blog.post}}</p>
             </section>
         </div>
+        <div class="comments blog-post m-5">
+            <h3>Comments</h3>
+            <ul id="comments-list">
+                <!-- Comments will be dynamically added here -->
+            </ul>
+            <textarea class="w-100 pb-0 pt-2 px-5 blog-header" id="comment-text" placeholder="Leave a comment"></textarea>
+            <button onclick="addComment()">Add Comment</button>
+        </div>
     </div>
 {{/each}}
